@@ -8,38 +8,31 @@ public class Mixing {
     public static String mix(String s1, String s2) {
         Map<String, Long> dict1 = prepareString(s1);
         Map<String, Long> dict2 = prepareString(s2);
-        List<String> result = new ArrayList<>();
+        List<String[]> result = new ArrayList<>();
 
         dict1.forEach((key, value1) -> {
             Long value2 = dict2.remove(key);
             if (value2 != null && value2 > value1) {
-                result.add(key + ":" + value2 + ":" + "2");
+                result.add(new String[]{key, String.valueOf(value2), "2"});
             } else if (value2 != null && value2.equals(value1)) {
-                result.add(key + ":" + value2 + ":" + "=");
+                result.add(new String[]{key, String.valueOf(value2), "="});
             } else {
-                result.add(key + ":" + value1 + ":" + "1");
+                result.add(new String[]{key, String.valueOf(value1), "1"});
             }
         });
-        dict2.forEach((key, value) -> result.add(key + ":" + value + ":" + 2));
+        dict2.forEach((key, value) -> result.add(new String[]{key, String.valueOf(value), "2"}));
 
         return result.stream()
                 .sorted(
-                        Comparator.comparing(
-                                e -> e.split(":"),
-                                Comparator
-                                        .comparing(e -> Integer.parseInt(((String[]) e)[1]))
-                                        .reversed()
-                                        .thenComparing(e -> ((String[]) e)[2] + ((String[]) e)[0])
-                        )
+                        Comparator
+                                .<String[]>comparingInt(e -> Integer.parseInt(e[1]))
+                                .reversed()
+                                .thenComparing(e -> e[2] + e[0])
                 )
-                .map(entry -> {
-                    String[] elements = entry.split(":");
-                    StringBuilder res = new StringBuilder();
-                    res.append(elements[2])
-                            .append(":")
-                            .append(new String(new char[Integer.parseInt(elements[1])]).replace("\0", elements[0]));
-                    return res.toString();
-                })
+                .map(e -> e[2] +
+                        ":" +
+                        new String(new char[Integer.parseInt(e[1])]).replace("\0", e[0])
+                )
                 .collect(Collectors.joining("/"));
     }
 
