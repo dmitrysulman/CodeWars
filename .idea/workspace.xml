@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="750c361b-44d5-4bcc-98d2-9c9cd918cc63" name="Changes" comment="c2">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dmitrysulman/codewars/mixing/Mixing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dmitrysulman/codewars/mixing/Mixing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/dmitrysulman/codewars/mixing/MixingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/dmitrysulman/codewars/mixing/MixingTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,20 +54,7 @@
       <recent name="org.dmitrysulman.codewars.pins" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.dmitrysulman.codewars.mixing.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.dmitrysulman.codewars.multiples_prime.Main" />
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.dmitrysulman.codewars.multiples_prime.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.MixingTest">
     <configuration name="org.dmitrysulman.codewars.ip_integer.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.dmitrysulman.codewars.ip_integer.Main" />
       <module name="CodeWars" />
@@ -108,6 +94,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MixingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.dmitrysulman.codewars.mixing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.dmitrysulman.codewars.mixing" />
+      <option name="MAIN_CLASS_NAME" value="org.dmitrysulman.codewars.mixing.MixingTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ObservedPinTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
@@ -125,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MixingTest" />
         <item itemvalue="Application.org.dmitrysulman.codewars.mixing.Main" />
         <item itemvalue="JUnit.ObservedPinTest" />
         <item itemvalue="Application.org.dmitrysulman.codewars.valid_parentheses.Main" />
         <item itemvalue="Application.org.dmitrysulman.codewars.ip_integer.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +144,7 @@
       <updated>1659443625115</updated>
       <workItem from="1659443626518" duration="35363000" />
       <workItem from="1659535560769" duration="5842000" />
-      <workItem from="1666338652802" duration="14674000" />
+      <workItem from="1666338652802" duration="15058000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1666342034207</created>
@@ -159,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666357637029</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="c2">
+      <created>1666361055764</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666361055764</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
