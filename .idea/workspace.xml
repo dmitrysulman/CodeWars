@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="750c361b-44d5-4bcc-98d2-9c9cd918cc63" name="Changes" comment="c3">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dmitrysulman/codewars/topwords/TopWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/dmitrysulman/codewars/topwords/TopWordsTest.java" afterDir="false" />
+    <list default="true" id="750c361b-44d5-4bcc-98d2-9c9cd918cc63" name="Changes" comment="c4">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dmitrysulman/codewars/battlefield/BattleField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/dmitrysulman/codewars/battlefield/BattleFieldTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,12 +52,13 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.dmitrysulman.codewars.battlefield" />
       <recent name="org.dmitrysulman.codewars.topwords" />
       <recent name="org.dmitrysulman.codewars.mixing" />
       <recent name="org.dmitrysulman.codewars.pins" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TopWordsTest.sampleTests">
+  <component name="RunManager" selected="JUnit.BattleFieldTest">
     <configuration name="org.dmitrysulman.codewars.mixing.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.dmitrysulman.codewars.mixing.Main" />
       <module name="CodeWars" />
@@ -70,15 +72,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.dmitrysulman.codewars.valid_parentheses.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.dmitrysulman.codewars.valid_parentheses.Main" />
+    <configuration name="BattleFieldTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.dmitrysulman.codewars.valid_parentheses.*" />
+          <option name="PATTERN" value="org.dmitrysulman.codewars.battlefield.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.dmitrysulman.codewars.battlefield" />
+      <option name="MAIN_CLASS_NAME" value="org.dmitrysulman.codewars.battlefield.BattleFieldTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -131,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BattleFieldTest" />
         <item itemvalue="JUnit.TopWordsTest.sampleTests" />
         <item itemvalue="JUnit.MixingTest" />
         <item itemvalue="Application.org.dmitrysulman.codewars.mixing.Main" />
         <item itemvalue="JUnit.ObservedPinTest" />
-        <item itemvalue="Application.org.dmitrysulman.codewars.valid_parentheses.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +153,7 @@
       <updated>1659443625115</updated>
       <workItem from="1659443626518" duration="35363000" />
       <workItem from="1659535560769" duration="5842000" />
-      <workItem from="1666338652802" duration="19776000" />
+      <workItem from="1666338652802" duration="29489000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1666342034207</created>
@@ -179,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666361090167</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="c4">
+      <created>1666617565117</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666617565117</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,6 +211,28 @@
     <MESSAGE value="init" />
     <MESSAGE value="c2" />
     <MESSAGE value="c3" />
-    <option name="LAST_COMMIT_MESSAGE" value="c3" />
+    <MESSAGE value="c4" />
+    <option name="LAST_COMMIT_MESSAGE" value="c4" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/dmitrysulman/codewars/battlefield/BattleField.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/dmitrysulman/codewars/battlefield/BattleField.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/dmitrysulman/codewars/battlefield/BattleField.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
