@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="750c361b-44d5-4bcc-98d2-9c9cd918cc63" name="Changes" comment="battlefield">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dmitrysulman/codewars/strip_comments/StripComments.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/dmitrysulman/codewars/strip_comments/StripCommentsTest.java" afterDir="false" />
+    <list default="true" id="750c361b-44d5-4bcc-98d2-9c9cd918cc63" name="Changes" comment="strip comments">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dmitrysulman/codewars/snail/Snail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/dmitrysulman/codewars/snail/SnailTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,14 +52,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.dmitrysulman.codewars.snail" />
       <recent name="org.dmitrysulman.codewars.strip_comments" />
       <recent name="org.dmitrysulman.codewars.battlefield" />
       <recent name="org.dmitrysulman.codewars.topwords" />
       <recent name="org.dmitrysulman.codewars.mixing" />
-      <recent name="org.dmitrysulman.codewars.pins" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StripCommentsTest.stripComments">
+  <component name="RunManager" selected="JUnit.SnailTest">
     <configuration name="BattleFieldTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
@@ -75,17 +75,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MixingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SnailTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.dmitrysulman.codewars.mixing.*" />
+          <option name="PATTERN" value="org.dmitrysulman.codewars.snail.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.dmitrysulman.codewars.mixing" />
-      <option name="MAIN_CLASS_NAME" value="org.dmitrysulman.codewars.mixing.MixingTest" />
+      <option name="PACKAGE_NAME" value="org.dmitrysulman.codewars.snail" />
+      <option name="MAIN_CLASS_NAME" value="org.dmitrysulman.codewars.snail.SnailTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SnailTest.SnailTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.dmitrysulman.codewars.snail.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.dmitrysulman.codewars.snail" />
+      <option name="MAIN_CLASS_NAME" value="org.dmitrysulman.codewars.snail.SnailTest" />
+      <option name="METHOD_NAME" value="SnailTest1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -121,29 +137,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TopWordsTest.sampleTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.dmitrysulman.codewars.topwords.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.dmitrysulman.codewars.topwords" />
-      <option name="MAIN_CLASS_NAME" value="org.dmitrysulman.codewars.topwords.TopWordsTest" />
-      <option name="METHOD_NAME" value="sampleTests" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SnailTest" />
+        <item itemvalue="JUnit.SnailTest.SnailTest1" />
         <item itemvalue="JUnit.StripCommentsTest.stripComments" />
         <item itemvalue="JUnit.BattleFieldTest" />
         <item itemvalue="JUnit.StripCommentsTest" />
-        <item itemvalue="JUnit.TopWordsTest.sampleTests" />
-        <item itemvalue="JUnit.MixingTest" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +157,7 @@
       <updated>1659443625115</updated>
       <workItem from="1659443626518" duration="35363000" />
       <workItem from="1659535560769" duration="5842000" />
-      <workItem from="1666338652802" duration="30927000" />
+      <workItem from="1666338652802" duration="37053000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1666342034207</created>
@@ -201,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666970278120</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="strip comments">
+      <created>1666976859095</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1666976859095</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,6 +231,7 @@
     <MESSAGE value="c3" />
     <MESSAGE value="c4" />
     <MESSAGE value="battlefield" />
-    <option name="LAST_COMMIT_MESSAGE" value="battlefield" />
+    <MESSAGE value="strip comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="strip comments" />
   </component>
 </project>
