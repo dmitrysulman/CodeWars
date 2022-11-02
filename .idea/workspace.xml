@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="750c361b-44d5-4bcc-98d2-9c9cd918cc63" name="Changes" comment="strip comments">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dmitrysulman/codewars/snail/Snail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/dmitrysulman/codewars/snail/SnailTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dmitrysulman/codewars/string_incrementer/Kata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/dmitrysulman/codewars/string_incrementer/KataTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,30 +36,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.dmitrysulman.codewars.string_incrementer" />
       <recent name="org.dmitrysulman.codewars.snail" />
       <recent name="org.dmitrysulman.codewars.strip_comments" />
       <recent name="org.dmitrysulman.codewars.battlefield" />
       <recent name="org.dmitrysulman.codewars.topwords" />
-      <recent name="org.dmitrysulman.codewars.mixing" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SnailTest">
+  <component name="RunManager" selected="JUnit.KataTest.exampleTests">
     <configuration name="BattleFieldTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
@@ -71,6 +71,22 @@
       <option name="PACKAGE_NAME" value="org.dmitrysulman.codewars.battlefield" />
       <option name="MAIN_CLASS_NAME" value="org.dmitrysulman.codewars.battlefield.BattleFieldTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KataTest.exampleTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.dmitrysulman.codewars.string_incrementer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.dmitrysulman.codewars.string_incrementer" />
+      <option name="MAIN_CLASS_NAME" value="org.dmitrysulman.codewars.string_incrementer.KataTest" />
+      <option name="METHOD_NAME" value="exampleTests" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -106,21 +122,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StripCommentsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.dmitrysulman.codewars.strip_comments.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.dmitrysulman.codewars.strip_comments" />
-      <option name="MAIN_CLASS_NAME" value="org.dmitrysulman.codewars.strip_comments.StripCommentsTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="StripCommentsTest.stripComments" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
@@ -139,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.KataTest.exampleTests" />
         <item itemvalue="JUnit.SnailTest" />
         <item itemvalue="JUnit.SnailTest.SnailTest1" />
         <item itemvalue="JUnit.StripCommentsTest.stripComments" />
         <item itemvalue="JUnit.BattleFieldTest" />
-        <item itemvalue="JUnit.StripCommentsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -158,6 +159,7 @@
       <workItem from="1659443626518" duration="35363000" />
       <workItem from="1659535560769" duration="5842000" />
       <workItem from="1666338652802" duration="37053000" />
+      <workItem from="1667395272161" duration="2113000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1666342034207</created>
