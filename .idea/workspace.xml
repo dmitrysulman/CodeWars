@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="750c361b-44d5-4bcc-98d2-9c9cd918cc63" name="Changes" comment="strip comments">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dmitrysulman/codewars/string_incrementer/Kata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/dmitrysulman/codewars/string_incrementer/KataTest.java" afterDir="false" />
+    <list default="true" id="750c361b-44d5-4bcc-98d2-9c9cd918cc63" name="Changes" comment="increment string">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dmitrysulman/codewars/multiples_prime/SolutionOld.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dmitrysulman/codewars/multiples_prime/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dmitrysulman/codewars/multiples_prime/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dmitrysulman/codewars/multiples_prime/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dmitrysulman/codewars/multiples_prime/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,19 +59,20 @@
       <recent name="org.dmitrysulman.codewars.battlefield" />
       <recent name="org.dmitrysulman.codewars.topwords" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.dmitrysulman.codewars.multiples_prime" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.KataTest.exampleTests">
-    <configuration name="BattleFieldTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dmitrysulman.codewars.multiples_prime.Main" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.dmitrysulman.codewars.battlefield.*" />
+          <option name="PATTERN" value="org.dmitrysulman.codewars.multiples_prime.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.dmitrysulman.codewars.battlefield" />
-      <option name="MAIN_CLASS_NAME" value="org.dmitrysulman.codewars.battlefield.BattleFieldTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -140,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.KataTest.exampleTests" />
         <item itemvalue="JUnit.SnailTest" />
         <item itemvalue="JUnit.SnailTest.SnailTest1" />
         <item itemvalue="JUnit.StripCommentsTest.stripComments" />
-        <item itemvalue="JUnit.BattleFieldTest" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +161,8 @@
       <workItem from="1659443626518" duration="35363000" />
       <workItem from="1659535560769" duration="5842000" />
       <workItem from="1666338652802" duration="37053000" />
-      <workItem from="1667395272161" duration="2113000" />
+      <workItem from="1667395272161" duration="11334000" />
+      <workItem from="1667822193864" duration="5519000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1666342034207</created>
@@ -210,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666976859095</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="increment string">
+      <created>1667404693232</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1667404693232</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,6 +244,7 @@
     <MESSAGE value="c4" />
     <MESSAGE value="battlefield" />
     <MESSAGE value="strip comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="strip comments" />
+    <MESSAGE value="increment string" />
+    <option name="LAST_COMMIT_MESSAGE" value="increment string" />
   </component>
 </project>
