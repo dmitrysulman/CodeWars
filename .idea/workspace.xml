@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="750c361b-44d5-4bcc-98d2-9c9cd918cc63" name="Changes" comment="increment string">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dmitrysulman/codewars/multiples_prime/SolutionOld.java" afterDir="false" />
+    <list default="true" id="750c361b-44d5-4bcc-98d2-9c9cd918cc63" name="Changes" comment="multiply primes">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dmitrysulman/codewars/colored_triangles/Kata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dmitrysulman/codewars/greed/Greed.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dmitrysulman/codewars/multiples_prime/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dmitrysulman/codewars/multiples_prime/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/dmitrysulman/codewars/multiples_prime/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dmitrysulman/codewars/multiples_prime/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -63,7 +63,7 @@
       <recent name="org.dmitrysulman.codewars.multiples_prime" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.GreedTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.dmitrysulman.codewars.multiples_prime.Main" />
       <module name="CodeWars" />
@@ -73,6 +73,21 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GreedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.dmitrysulman.codewars.greed.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.dmitrysulman.codewars.greed" />
+      <option name="MAIN_CLASS_NAME" value="org.dmitrysulman.codewars.greed.GreedTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -124,29 +139,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StripCommentsTest.stripComments" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.dmitrysulman.codewars.strip_comments.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.dmitrysulman.codewars.strip_comments" />
-      <option name="MAIN_CLASS_NAME" value="org.dmitrysulman.codewars.strip_comments.StripCommentsTest" />
-      <option name="METHOD_NAME" value="stripComments" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GreedTest" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.KataTest.exampleTests" />
         <item itemvalue="JUnit.SnailTest" />
         <item itemvalue="JUnit.SnailTest.SnailTest1" />
-        <item itemvalue="JUnit.StripCommentsTest.stripComments" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +161,8 @@
       <workItem from="1659535560769" duration="5842000" />
       <workItem from="1666338652802" duration="37053000" />
       <workItem from="1667395272161" duration="11334000" />
-      <workItem from="1667822193864" duration="5519000" />
+      <workItem from="1667822193864" duration="6252000" />
+      <workItem from="1668012600244" duration="1829000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1666342034207</created>
@@ -220,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667404693232</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="multiply primes">
+      <created>1667829083969</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1667829083969</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,6 +252,7 @@
     <MESSAGE value="battlefield" />
     <MESSAGE value="strip comments" />
     <MESSAGE value="increment string" />
-    <option name="LAST_COMMIT_MESSAGE" value="increment string" />
+    <MESSAGE value="multiply primes" />
+    <option name="LAST_COMMIT_MESSAGE" value="multiply primes" />
   </component>
 </project>

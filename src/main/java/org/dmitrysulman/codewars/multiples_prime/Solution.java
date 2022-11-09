@@ -38,7 +38,7 @@ public class Solution {
         return bigInteger.multiply(bigInteger.add(BigInteger.valueOf(1L))).multiply(num).divide(BigInteger.valueOf(2L));
     }
 
-    private BigInteger multiply (int[] combination, int[] numbers) {
+    private BigInteger multiply(int[] combination, int[] numbers) {
         BigInteger res = BigInteger.ONE;
         for (int index : combination) {
             res = res.multiply(BigInteger.valueOf(numbers[index]));
